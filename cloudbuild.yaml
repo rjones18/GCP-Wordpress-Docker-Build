@@ -4,3 +4,7 @@ steps:
 
 images:
 - 'gcr.io/$PROJECT_ID/wordpress-docker-image:latest'
+
+options:
+  logging : CLOUD_LOGGING_ONLY
+timeout: 1600s
